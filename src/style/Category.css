@@ -1,0 +1,61 @@
+nav .menu-item svg {
+    width: 10px;
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+}
+nav .menu-item .sub-menu {
+  position: absolute;
+  background-color: white;
+  top: calc(100% + 5px);
+  left: 1%;
+  width: max-content;
+  
+}
+
+nav .menu-item{
+    padding: 20px;
+   }
+
+   nav .menu-item a{
+    color: black;
+    text-decoration: none;
+   }
+
+
+   div .sub-menu{
+    height: 200px;
+    overflow:scroll;
+   }
+
+   div .menu-item{
+    border-bottom: 1px solid white;
+   }
+.fade-enter-active,
+
+
+.sub-menu {
+  cursor: pointer;
+}
+
+.title{
+    color: black ;
+    font-weight: lighter; 
+    white-space: wrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    height: 30px;
+   }
+   
+   
+   
+   
+   .description{ 
+       white-space: wrap; 
+     overflow: hidden;
+     text-overflow: ellipsis; 
+     
+     color: black;    
+     font-size: 15px;
+     height:50px ;
+    }
+   

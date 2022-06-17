@@ -1,0 +1,30 @@
+.containerCarte{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+    
+}
+
+.carte{
+      width: 250px;
+      height: 400px;
+      margin-top: 5px;
+      font-size: 18px;
+      color: #0066FF;
+      line-height: 28px;
+     border-radius: 10px;
+     box-shadow: 1px 2px 5px 0px rgb(160, 155, 155);
+     margin-bottom: 30px;
+     margin-left: 20px;
+}
+
+.VentesTitre h1{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    padding-left: 0;
+    font-weight: lighter;
+}

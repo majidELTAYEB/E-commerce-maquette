@@ -1,0 +1,41 @@
+.NavFirstcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.NavLogo img{
+    width: 200px;
+    
+}
+
+.BasketContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 100px;
+    
+    
+}
+
+body{
+    margin: 0;
+}
+
+.BasketTitle p{
+    font-size: 20px;
+    color: rgb(212, 107, 51);
+    padding-right: 20px;
+}
+
+.BasketLogo{
+    font-size:20px;
+    color: rgb(13, 52, 125);
+}
+
+.Banner{
+    background-color: #7fcfff;
+    padding-left: 200px;
+    padding-right: 200px;
+}

@@ -1,0 +1,52 @@
+p{ 
+  color: black ;  
+}
+
+button{ 
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    
+}
+
+.buttonPlus{
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px;
+  color: black;
+  align-items: center;
+  
+}
+
+.buttonPlus p{
+  padding: 10px;
+}
+
+.buttonPlus button{
+  
+    font-size: 20px;
+    width: 50px;
+    height: 30px;
+    }
+
+.containerPriceButton{
+
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonAdd{
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+.ContainPrice{
+  padding-left: 10px;
+}
+
+.ShowQuantity p{
+  margin-bottom: 30px;
+}
